@@ -2,8 +2,8 @@ const db = require('../../data/dbConfig.js')
 
 module.exports = {
   insert,
-  update,
-  remove,
+  // update,
+  // remove,
   getAll,
   getById,
 }
@@ -22,10 +22,10 @@ async function insert(hobbit) {
     })
 }
 
-async function update(id, changes) {
-  return null
-}
+// async function update(id, changes) {
+//   return null
+// }
 
-function remove(id) {
-  return null
-}
+// function remove(id) {
+//   return null
+// }
